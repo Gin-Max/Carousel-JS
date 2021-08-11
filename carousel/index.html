@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <title>JavaScript - Carousel</title>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+  <link rel="stylesheet" href="css/normalize.min.css">
+  <link rel="stylesheet" href="css/carousel.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Le carousel des chats</h1>
+    </header>
+    <main>
+      <section id="carousel">
+        <div id="carousel-item" class="carousel-item">
+          <img src="img/chat-relax.jpg" alt="Chat relax">
+          <div class="carousel-caption">
+            <h2>Chat relax</h2>
+          </div>
+          <a href="#" id="previous" title="Image précédente"><i class="fas fa-3x fa-angle-left"></i></a>
+          <a href="#" id="next" title="Image suivante"><i class="fas fa-3x fa-angle-right"></i></a>
+          <p class="carousel-nav align-center"></p>
+        </div>
+      </section>
+    </main>
+  </div>
+  <!-- Code du carrousel -->
+  <script src="js/carousel.js"></script>
+</body>
+</html>
